@@ -16,6 +16,9 @@ const Header = () => {
     <section className="h-wrapper">
       <div className="flexCenter paddings innerwidth  h-container">
         <img src="./logo.png" alt="logo" width={100} />
+        {/* <video width={500} controls>
+          <source src="video1.mp4" type="video/mp4"/>
+        </video> */}
 
         <OutsideClickHandler
           onOutsideClick={() => {
